@@ -114,55 +114,53 @@ function Navbar() {
 									</li>
 								</ul>
 							</div>
-							<div
-								className="humberger_div"
-								onClick={handleClick}>
-								<svg
-									className=""
-									fill="none"
-									stroke="#000"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										strokeWidth={2}
-										d="M4 6h16M4 12h16M4 18h16"
-									/>
-								</svg>
-							</div>
-							<div
-								className="signup_div flex justify-justify-between"
-								style={{ marginRight: "10px" }}>
-								<a
-									href="#"
-									style={{
-										height: "30px",
-										width: "115px",
-										marginTop: "10px",
-										padding: "3px",
-									}}
-									className="spin_wheel flex align-items justify-center">
-									<img
-										style={{ paddingRight: "2px" }}
-										src="/images/spin-wheel-mono.png"
-										alt=""
-									/>
-									<span>Spin To Win</span>
-								</a>
-								<a href="#" className="">
-									<img
+							<div>
+								<div className="signup_div flex justify-justify-between">
+									<a
+										href="#"
 										style={{
-											height: "40px",
-											width: "85px",
-											paddingLeft: "10px",
-											marginTop: "5px",
+											height: "30px",
+											width: "115px",
+											marginTop: "10px",
+											padding: "3px",
 										}}
-										src="/images/signin.png"
-										alt=""
-									/>
-								</a>
+										className="spin_wheel flex align-items justify-center">
+										<img
+											style={{ paddingRight: "2px" }}
+											src="/images/spin-wheel-mono.png"
+											alt=""
+										/>
+										<span>Spin To Win</span>
+									</a>
+									<a href="#" className="">
+										<img
+											style={{
+												height: "40px",
+												width: "85px",
+												paddingLeft: "10px",
+												marginTop: "5px",
+											}}
+											src="/images/signin.png"
+											alt=""
+										/>
+									</a>
+								</div>
 							</div>
+						</div>
+						<div className="humberger_div" onClick={handleClick}>
+							<svg
+								className=""
+								fill="none"
+								stroke="#000"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth={2}
+									d="M4 6h16M4 12h16M4 18h16"
+								/>
+							</svg>
 						</div>
 					</div>
 				</div>
